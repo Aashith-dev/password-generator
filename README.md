@@ -1,14 +1,14 @@
-# 🔐 Smart Password Generator
+🔐 Smart Password Generator
 
-A modern and secure password generator built using **HTML, CSS, and JavaScript**.
+A modern and secure Password Generator and Password Strength Checker built using HTML, CSS, and JavaScript.
 
-This tool allows users to instantly create strong and customizable passwords with multiple security options.
+This tool allows users to generate strong passwords and also check the strength of their own passwords.
 
 ---
 
-## 🌐 Live Website
+🌐 Live Website
 
-You can use the generator here:
+You can use the tool here:
 
 https://aashith-dev.github.io/password-generator
 
@@ -16,7 +16,7 @@ Hosted using GitHub Pages.
 
 ---
 
-## 🚀 Features
+🚀 Features
 
 - Generate strong random passwords
 - Adjustable password length (6–32 characters)
@@ -29,25 +29,28 @@ Hosted using GitHub Pages.
 - Copy password to clipboard
 - Password history (last 5 generated passwords)
 - Dark / Light mode toggle
-- Mobile-friendly design
-- Modern glass UI
+- Check strength of your own password
+- Mobile-friendly interface
+- Modern glass-style user interface
 
 ---
 
-## 🛠️ Built With
+🛠️ Built With
 
 - HTML
 - CSS
 - JavaScript
 
-Icons from Font Awesome.
+Icons provided by Font Awesome.
 
 ---
 
-## 📂 Project Structure
+📂 Project Structure
 
 password-generator/
+
 │
+
 ├── index.html
 ├── style.css
 ├── script.js
@@ -55,41 +58,34 @@ password-generator/
 
 ---
 
-## 📸 Preview
-
-Smart Password Generator Interface
-
-Generate secure passwords instantly with customizable options.
-
----
-
-## ⚡ How It Works
+⚡ How To Use
 
 1. Select password length using the slider.
 2. Choose character types (uppercase, lowercase, numbers, symbols).
-3. Click **Generate Password**.
-4. Copy the password instantly.
-5. View previously generated passwords in the history list.
+3. Click Generate Password.
+4. Copy the password using the copy button.
+5. View previously generated passwords in the history section.
+6. Enter your own password in the Password Strength Checker to see if it is weak, medium, or strong.
 
 ---
 
-## 📌 Future Improvements
+📌 Future Improvements
 
-Possible upgrades for the project:
+Possible future upgrades:
 
+- Animated password strength meter
 - Save password history using local storage
-- Password strength meter animation
-- Export passwords as a file
-- Add password entropy calculation
+- Download generated passwords
+- Password entropy calculation
 
 ---
 
-## 📄 License
+📄 License
 
-This project is licensed under the **MIT License**.
+This project is licensed under the MIT License.
 
 ---
 
-## 👨‍💻 Author
+👨‍💻 Author
 
-Created by **Aashith-dev**.
+Created by Aashith-dev
