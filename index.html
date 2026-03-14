@@ -1,21 +1,50 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<title>Password Generator</title>
+<title>Smart Password Generator</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <link rel="stylesheet" href="style.css">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
 </head>
 
 <body>
 
-<h1>Password Generator</h1>
+<button class="toggle" onclick="toggleMode()">
+<i class="fa-solid fa-moon"></i>
+</button>
+
+<div class="container">
+
+<h1><i class="fa-solid fa-lock"></i> Smart Password Generator</h1>
+
+<p>Create strong and secure passwords instantly</p>
 
 <input type="number" id="length" value="12">
 
-<button onclick="generatePassword()">Generate</button>
+<br><br>
+
+<button onclick="generatePassword()">
+<i class="fa-solid fa-key"></i> Generate Password
+</button>
 
 <h2 id="result"></h2>
+
+<p id="strength"></p>
+
+<button onclick="copyPassword()">
+<i class="fa-solid fa-copy"></i> Copy Password
+</button>
+
+</div>
 
 <script src="script.js"></script>
 
 </body>
+
 </html>
