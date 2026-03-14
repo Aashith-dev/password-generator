@@ -2,6 +2,7 @@
 <html>
 
 <head>
+
 <title>Smart Password Generator</title>
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -21,16 +22,53 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
 
 <div class="container">
 
-<h1><i class="fa-solid fa-lock"></i> Smart Password Generator</h1>
+<h1>
+<i class="fa-solid fa-lock"></i>
+Smart Password Generator
+</h1>
 
 <p>Create strong and secure passwords instantly</p>
 
-<input type="number" id="length" value="12">
+<label>Password Length</label>
 
-<br><br>
+<br>
+
+<input type="range" min="6" max="32" value="12" id="length">
+
+<p id="lengthValue">12</p>
+
+<div class="options">
+
+<label>
+<input type="checkbox" id="uppercase" checked>
+Uppercase
+</label>
+<br>
+
+<label>
+<input type="checkbox" id="lowercase" checked>
+Lowercase
+</label>
+<br>
+
+<label>
+<input type="checkbox" id="numbers" checked>
+Numbers
+</label>
+<br>
+
+<label>
+<input type="checkbox" id="symbols">
+Symbols
+</label>
+
+</div>
+
+<br>
 
 <button onclick="generatePassword()">
-<i class="fa-solid fa-key"></i> Generate Password
+<i class="fa-solid fa-key"></i>
+Generate Password
 </button>
 
 <h2 id="result"></h2>
@@ -38,8 +76,13 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
 <p id="strength"></p>
 
 <button onclick="copyPassword()">
-<i class="fa-solid fa-copy"></i> Copy Password
+<i class="fa-solid fa-copy"></i>
+Copy Password
 </button>
+
+<h3>Password History</h3>
+
+<ul id="history"></ul>
 
 </div>
 
