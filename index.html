@@ -41,13 +41,13 @@ Smart Password Generator
 
 <label>
 <input type="checkbox" id="uppercase" checked>
-Uppercase
+Uppercase Letters
 </label>
 <br>
 
 <label>
 <input type="checkbox" id="lowercase" checked>
-Lowercase
+Lowercase Letters
 </label>
 <br>
 
@@ -83,6 +83,21 @@ Copy Password
 <h3>Password History</h3>
 
 <ul id="history"></ul>
+
+<hr>
+
+<h3>Check Your Password Strength</h3>
+
+<input type="text" id="userPassword" placeholder="Enter your password">
+
+<br><br>
+
+<button onclick="checkUserPassword()">
+<i class="fa-solid fa-shield-halved"></i>
+Check Strength
+</button>
+
+<p id="userStrength"></p>
 
 </div>
 
