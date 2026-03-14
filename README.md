@@ -1,26 +1,51 @@
 # 🔐 Smart Password Generator
 
-A modern web app that generates strong and secure passwords instantly.
+A modern and secure password generator built using **HTML, CSS, and JavaScript**.
+
+This tool allows users to instantly create strong and customizable passwords with multiple security options.
+
+---
+
+## 🌐 Live Website
+
+You can use the generator here:
+
+https://aashith-dev.github.io/password-generator
+
+Hosted using GitHub Pages.
+
+---
 
 ## 🚀 Features
-- Generate random secure passwords
+
+- Generate strong random passwords
+- Adjustable password length (6–32 characters)
+- Choose password characters:
+  - Uppercase letters
+  - Lowercase letters
+  - Numbers
+  - Symbols
 - Password strength indicator
 - Copy password to clipboard
+- Password history (last 5 generated passwords)
 - Dark / Light mode toggle
-- Modern glass UI design
-- Mobile-friendly interface
+- Mobile-friendly design
+- Modern glass UI
 
-## 🛠 Technologies Used
+---
+
+## 🛠️ Built With
+
 - HTML
 - CSS
 - JavaScript
 
-## 🌐 Live Website
-Visit the website here:
+Icons from Font Awesome.
 
-https://aashith-dev.github.io/password-generator
+---
 
 ## 📂 Project Structure
+
 password-generator/
 │
 ├── index.html
@@ -28,5 +53,43 @@ password-generator/
 ├── script.js
 └── README.md
 
-## 📌 Author
-Created by **Aashith-dev**
+---
+
+## 📸 Preview
+
+Smart Password Generator Interface
+
+Generate secure passwords instantly with customizable options.
+
+---
+
+## ⚡ How It Works
+
+1. Select password length using the slider.
+2. Choose character types (uppercase, lowercase, numbers, symbols).
+3. Click **Generate Password**.
+4. Copy the password instantly.
+5. View previously generated passwords in the history list.
+
+---
+
+## 📌 Future Improvements
+
+Possible upgrades for the project:
+
+- Save password history using local storage
+- Password strength meter animation
+- Export passwords as a file
+- Add password entropy calculation
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License**.
+
+---
+
+## 👨‍💻 Author
+
+Created by **Aashith-dev**.
